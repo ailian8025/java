@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/enviromentInit.iml" filepath="$PROJECT_DIR$/enviromentInit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/enviromentInit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/enviromentInit.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/src/enviromentInit.src.iml" filepath="$PROJECT_DIR$/.idea/modules/src/enviromentInit.src.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/enviromentInit.test.iml" filepath="$PROJECT_DIR$/.idea/modules/enviromentInit.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+    </modules>
+  </component>
+</project>
