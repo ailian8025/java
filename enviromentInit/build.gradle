@@ -1,0 +1,41 @@
+plugins {
+    // id 'java'
+    id 'application'
+}
+
+group = 'com.ailian'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+application {
+    mainClass = 'com.ailian.Main'
+}
+
+dependencies {
+    implementation 'org.apache.commons:commons-lang3:3.12.0'
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events 'passed', 'skipped', 'failed'
+    }
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'com.ailian.Main'
+    }
+}
+
+task hello {
+    doLast {
+        println 'Hello, task hello'
+    }
+}
